@@ -10,7 +10,7 @@ async function main() {
 
     const client = new mongodb.MongoClient(process.env.MOVIEREVIEWS_DB_URI);
 
-    const port = process.env.PORT || 8000;
+    const port = process.env.PORT || 3000;
 
     try {
         // Connect to mongodb cluster
